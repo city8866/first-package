@@ -1,0 +1,21 @@
+{
+    "name": "city8866/first-package",
+    "description": "this is first package",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "city8866",
+            "email": "965177646@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php" : ">=5.3.3"
+    },
+    "autoload": {
+    	"psr-4": {
+	    "First\\Src\\": "src"
+	}
+    }
+}
